@@ -160,20 +160,6 @@ p {
     font-weight: 700;
 }
 
-/* ---------- Grid challenge columns ---------- */
-.col-cream {
-    background-color: #FDF1E3;
-    color: #4A2E1F;
-}
-.col-pink {
-    background-color: #F3D9DA;
-    color: #4A2E1F;
-}
-.col-peach {
-    background-color: #F6C89F;
-    color: #4A2E1F;
-}
-
 /* ---------- Accordion (component page) ---------- */
 .accordion-button:not(.collapsed) {
     background-color: #F6C89F;
