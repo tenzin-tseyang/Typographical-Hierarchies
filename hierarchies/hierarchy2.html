@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Grid Challenge 2 | Golden Crumb Bakery &amp; Café</title>
+    <title>Type Hierarchies - Hierarchy One</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/type.css">
 <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-bakery sticky-top">
@@ -23,20 +23,15 @@
             <li class="nav-item">
               <a class="nav-link" href="../index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../subpages/cards.html">Cards</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../subpages/component.html">Component</a>
-            </li>
+            
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Grid Challenges
+                Type Hierarchies
               </a>
               <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="grid1.html">Grid Challenge 1</a></li>
-                <li><a class="dropdown-item active" aria-current="page" href="grid2.html">Grid Challenge 2</a></li>
-                <li><a class="dropdown-item" href="grid3.html">Grid Challenge 3</a></li>
+                <li><a class="dropdown-item active" aria-current="page" href="hierarchy1.html">Hierarchy 1</a></li>
+                <li><a class="dropdown-item" href="hierarchy2.html">Hierarchy 2</a></li>
+                <li><a class="dropdown-item" href="hierarchy3.html">Hierarchy 3</a></li>
               </ul>
             </li>
           </ul>
@@ -45,19 +40,139 @@
     </nav>
 
     <div class="container-lg">
-      <div class="row pt-4 pb-2">
-        <div class="col-12">
-          <h1>Grid Challenge 2</h1>
-        </div>
-      </div>
-      <div class="row pb-5 gy-3">
-        <div class="col-12 col-lg-4 py-3 col-cream">Column 1</div>
-        <div class="col-12 col-lg-2 py-3 col-pink">Column 2</div>
-        <div class="col-12 col-lg-6 py-3 col-peach">Column 3</div>
-      </div>
+        <div class="row pt-3">
+          <h1 class = "title">Nunito in a Minor Third (1.200)</h1>
+          <p>Base: 1 rem | Made using <a class ="link" href = "https://typescale.com/">Typescale.com</a></p>
+        </div> <!-- Close Row -->
+
+        <div class = "row">
+          <div class = "col-lg-7 pt-2 border-top">
+            <h1>Heading One</h1>
+            <p>Lorem ipsum dolor sit amet, croissant lamination butter fold, oven-warm crumb caramelize glaze drizzle. Sourdough starter proof overnight, cinnamon swirl dust powdered sugar, artisan loaf crackle crust consectetur adipiscing elit.</p>
+          </div>
+          <div class = "col-lg-5 pt=2 border-top specsDiv">
+            <p class = "source-code-pro-specs">
+              <ul>
+                <li class = "source-code-pro-specs">font-family: "Nunito", san-serif;</li>
+                <li class = "source-code-pro-specs">font-size: 2.986rem;</li>
+                <li class = "source-code-pro-specs">font-weight: 700;</li>
+                <li class = "souce-code-pro-specs">font-style: normal;</li>
+                <li class = "source-code-pro-specs">line-height: 1.3em;</li>
+              </ul>
+            </p>
+          </div>
+        </div> <!-- Close h1 Row -->
+
+        <div class = "row">
+          <div class = "col-lg-7 pt-2 border-top">
+            <h2>Heading Two</h2>
+            <p>Lorem ipsum dolor sit amet, croissant lamination butter fold, oven-warm crumb caramelize glaze drizzle. Sourdough starter proof overnight, cinnamon swirl dust powdered sugar, artisan loaf crackle crust consectetur adipiscing elit.</p>
+          </div>
+          <div class = "col-lg-5 mb=2 border-top specsDiv">
+            <p class = "source-code-pro-specs">
+              <ul>
+                <li class = "source-code-pro-specs">font-family: "Nunito", san-serif;</li>
+                <li class = "source-code-pro-specs">font-size: 2.488rem;</li>
+                <li class = "source-code-pro-specs">font-weight: 700;</li>
+                <li class = "souce-code-pro-specs">font-style: normal;</li>
+                <li class = "source-code-pro-specs">line-height: 1.3em;</li>
+              </ul>
+            </p>
+          </div>
+        </div> <!-- Close h2 Row -->
+
+        <div class = "row">
+          <div class = "col-lg-7 pt-2 border-top">
+            <h3>Heading Three</h3>
+            <p>Lorem ipsum dolor sit amet, croissant lamination butter fold, oven-warm crumb caramelize glaze drizzle. Sourdough starter proof overnight, cinnamon swirl dust powdered sugar, artisan loaf crackle crust consectetur adipiscing elit.</p>
+          </div>
+          <div class = "col-lg-5 mb=2 border-top specsDiv">
+            <p class = "source-code-pro-specs">
+              <ul>
+                <li class = "source-code-pro-specs">font-family: "Nunito", san-serif;</li>
+                <li class = "source-code-pro-specs">font-size: 2.074rem;</li>
+                <li class = "source-code-pro-specs">font-weight: 700;</li>
+                <li class = "souce-code-pro-specs">font-style: normal;</li>
+                <li class = "source-code-pro-specs">line-height: 1.3em;</li>
+              </ul>
+            </p>
+          </div>
+        </div> <!-- Close h3 Row -->
+
+        <div class = "row">
+          <div class = "col-lg-7 pt-2 border-top">
+            <h4>Heading Four</h4>
+            <p>Lorem ipsum dolor sit amet, croissant lamination butter fold, oven-warm crumb caramelize glaze drizzle. Sourdough starter proof overnight, cinnamon swirl dust powdered sugar, artisan loaf crackle crust consectetur adipiscing elit.</p>
+          </div>
+          <div class = "col-lg-5 mb=2 border-top specsDiv">
+            <p class = "source-code-pro-specs">
+              <ul>
+                <li class = "source-code-pro-specs">font-family: "Nunito", san-serif;</li>
+                <li class = "source-code-pro-specs">font-size: 1.728rem;</li>
+                <li class = "source-code-pro-specs">font-weight: 600;</li>
+                <li class = "souce-code-pro-specs">font-style: normal;</li>
+                <li class = "source-code-pro-specs">line-height: 1.3em;</li>
+              </ul>
+            </p>
+          </div>
+        </div> <!-- Close h4 Row -->
+
+        <div class = "row">
+          <div class = "col-lg-7 pt-2 border-top">
+            <p>Paragraph</p>
+            <p>Lorem ipsum dolor sit amet, croissant lamination butter fold, oven-warm crumb caramelize glaze drizzle. Sourdough starter proof overnight, cinnamon swirl dust powdered sugar, artisan loaf crackle crust consectetur adipiscing elit.</p>
+          </div>
+          <div class = "col-lg-5 mb=2 border-top specsDiv">
+            <p class = "source-code-pro-specs">
+              <ul>
+                <li class = "source-code-pro-specs">font-family: "Nunito", san-serif;</li>
+                <li class = "source-code-pro-specs">font-size: 1rem;</li>
+                <li class = "source-code-pro-specs">font-weight: 400;</li>
+                <li class = "souce-code-pro-specs">font-style: normal;</li>
+                <li class = "source-code-pro-specs">line-height: 1.3em;</li>
+              </ul>
+            </p>
+          </div>
+        </div> <!-- Close p Row -->
+
+        <div class = "row">
+          <div class = "col-lg-7 pt-2 border-top">
+            <p2>Emphasis (on 'croissant lamination butter')</p2>
+            <p>Lorem ipsum dolor sit amet, <span class = "emphasis">croissant lamination butter</span> fold, oven-warm crumb caramelize glaze drizzle. Sourdough starter proof overnight, cinnamon swirl dust powdered sugar, artisan loaf crackle crust consectetur adipiscing elit.</p>
+          </div>
+          <div class = "col-lg-5 mb=2 border-top specsDiv">
+            <p class = "source-code-pro-specs">
+              <ul>
+                <li class = "source-code-pro-specs">font-family: "Nunito", san-serif;</li>
+                <li class = "source-code-pro-specs">font-size: 1rem;</li>
+                <li class = "source-code-pro-specs">font-weight: 700;</li>
+                <li class = "souce-code-pro-specs">font-style: normal;</li>
+                <li class = "source-code-pro-specs">line-height: 1.3em;</li>
+              </ul>
+            </p>
+          </div>
+        </div> 
+
+        <div class = "row">
+          <div class = "col-lg-7 pt-2 border-top">
+            <p>Link (on 'croissant lamination butter')</p>
+            <p>Lorem ipsum dolor sit amet, <span class = "link">croissant lamination butter</span> oven-warm crumb caramelize glaze drizzle. Sourdough starter proof overnight, cinnamon swirl dust powdered sugar, artisan loaf crackle crust consectetur adipiscing elit.</p>
+          </div>
+          <div class = "col-lg-5 mb=2 border-top specsDiv">
+            <p class = "source-code-pro-specs">
+              <ul>
+                <li class = "source-code-pro-specs">font-family: "Nunito", san-serif;</li>
+                <li class = "source-code-pro-specs">font-size: 1rem;</li>
+                <li class = "source-code-pro-specs">font-weight: 400;</li>
+                <li class = "souce-code-pro-specs">font-style: normal;</li>
+                <li class = "source-code-pro-specs">line-height: 1.3em;</li>
+              </ul>
+            </p>
+          </div>
+        </div> 
     </div> <!-- Close container -->
 
-    <div class="footer-bakery border-top py-3">
+    <div class="footer-bakery border-top py-3 mt-2 mx=4">
       <p>Copyright &copy; Tenzin Tseyang</p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
