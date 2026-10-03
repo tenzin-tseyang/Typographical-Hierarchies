@@ -9,6 +9,14 @@
     font-style: normal;
 }
 
+.title{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color: rgb(102, 102, 106);
+}
+
 /* ---------- Google Font: Nunito (static weights, not variable) ---------- */
 .nunito-regular {
     font-family: "Nunito", sans-serif;
@@ -44,34 +52,34 @@ body {
 
 h1 {
     font-family: "Nunito", sans-serif;
-    font-size: 2.2rem;
+    font-size: 2.986rem;
     font-weight: 800;
     color: #4A2E1F;
 }
 
 h2 {
     font-family: "Nunito", sans-serif;
-    font-size: 1.60rem;
+    font-size: 2.488rem;
     font-weight: 700;
     color: #4A2E1F;
 }
 
 h3 {
     font-family: "Nunito", sans-serif;
-    font-size: 1.45rem;
+    font-size: 2.074rem;
     font-weight: 700;
     color: #4A2E1F;
 }
 
 h4 {
     font-family: "Nunito", sans-serif;
-    font-size: 1.30rem;
+    font-size: 1.728rem;
     font-weight: 600;
     color: #4A2E1F;
 }
 
 p {
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
