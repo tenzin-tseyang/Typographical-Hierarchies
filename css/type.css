@@ -1,6 +1,14 @@
 @charset "UTF-8";
 /*CSS Document*/
 
+
+.source-code-pro-specs {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* ---------- Google Font: Nunito (static weights, not variable) ---------- */
 .nunito-regular {
     font-family: "Nunito", sans-serif;
