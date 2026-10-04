@@ -74,55 +74,70 @@ p {
     font-family: "Hanken Grotesk", sans-serif;
     font-size: 1rem;
     font-weight: 700;
+    color: #681D2B;
 }
 
 .link {
     font-family: "Hanken Grotesk", sans-serif;
     font-size: 1rem;
     font-weight: 500;
+    color: #681D2B;
     text-decoration: underline;
+    text-underline-offset: 0.2em;
 }
 /* ---------- Navbar ---------- */
 .navbar-bakery {
-    background-color: #6B4226 !important;
+    background-color: #191817 !important;
 }
+
 .navbar-brand {
-    color: #FDF6EC !important;
-    font-weight: 800;
-}
-.navbar-bakery .nav-link {
-    color: rgba(253, 246, 236, 0.85) !important;
+    color: #F7F3ED !important;
+    font-family: "Hanken Grotesk", sans-serif;
     font-weight: 600;
+    letter-spacing: 0.02em;
 }
+
+.navbar-bakery .nav-link {
+    color: #F7F3ED !important;
+    font-weight: 500;
+}
+
 .navbar-bakery .nav-link:hover,
 .navbar-bakery .nav-link:focus {
-    color: #FDF6EC !important;
+    color: #D8D0C7 !important;
 }
+
 .navbar-bakery .nav-link.active {
-    color: #F6C89F !important;
-    border-bottom: 2px solid #F6C89F;
+    color: #F7F3ED !important;
+    border-bottom: 2px solid #681D2B;
 }
+
 .navbar-bakery .navbar-toggler {
-    border-color: rgba(253, 246, 236, 0.5);
+    border-color: rgba(247, 243, 237, 0.5);
 }
+
 .navbar-bakery .navbar-toggler-icon {
     filter: invert(100%);
 }
+
 .navbar-bakery .dropdown-menu {
-    background-color: #6B4226;
+    background-color: #191817;
 }
+
 .navbar-bakery .dropdown-item {
-    color: rgba(253, 246, 236, 0.85);
-    font-weight: 600;
+    color: #F7F3ED;
+    font-weight: 500;
 }
+
 .navbar-bakery .dropdown-item:hover,
 .navbar-bakery .dropdown-item:focus {
-    background-color: #543319;
-    color: #FDF6EC;
+    background-color: #681D2B;
+    color: #F7F3ED;
 }
+
 .navbar-bakery .dropdown-item.active {
-    background-color: #543319;
-    color: #F6C89F;
+    background-color: #681D2B;
+    color: #F7F3ED;
 }
 
 /* ---------- Footer ---------- */
