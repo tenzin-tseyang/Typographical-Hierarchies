@@ -5,90 +5,72 @@
     background-color: rgb(148, 223, 228);
 }
 
-.source-code-pro-specs {
-    font-family: "Source Code Pro", monospace;
-    font-optical-sizing: auto;
+.specs {
+    font-family: monospace;
     font-weight: 400;
     font-style: normal;
 }
 
 .title{
-    font-family: "Nunito", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 40px;
-    color: rgb(82, 82, 85);
-}
-
-/* ---------- Google Font: Nunito (static weights, not variable) ---------- */
-.nunito-regular {
-    font-family: "Nunito", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.nunito-semibold {
-    font-family: "Nunito", sans-serif;
+    font-family: "Bodoni Moda", serif;
     font-weight: 600;
     font-style: normal;
-}
-
-.nunito-bold {
-    font-family: "Nunito", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.nunito-extrabold {
-    font-family: "Nunito", sans-serif;
-    font-weight: 800;
-    font-style: normal;
+    font-size: 3.815rem;
 }
 
 /* ---------- Base typography ---------- */
 body {
-    font-family: "Nunito", sans-serif;
+    font-family: "Hanken Grotesk", sans-serif;
     font-weight: 400;
-    background-color: #FDF6EC;
-    color: #5A4438;
+    line-height: 1.6;
 }
 
 h1 {
-    font-family: "Nunito", sans-serif;
-    font-size: 2.986rem;
-    font-weight: 700;
-    color: #4A2E1F;
+    font-family: "Bodoni Moda", serif;
+    font-size: 3.815rem;
+    font-weight: 500;
+    line-height: 1.1;
 }
 
 h2 {
-    font-family: "Nunito", sans-serif;
-    font-size: 2.488rem;
-    font-weight: 700;
-    color: #4A2E1F;
+    font-family: "Bodoni Moda", serif;
+    font-size: 3.052rem;
+    font-weight: 500;
+    line-height: 1.1;
 }
 
 h3 {
-    font-family: "Nunito", sans-serif;
-    font-size: 2.074rem;
-    font-weight: 700;
-    color: #4A2E1F;
+    font-family: "Bodoni Moda", serif;
+    font-size: 2.441rem;
+    font-weight: 500;
+    line-height: 1.15;
 }
 
 h4 {
-    font-family: "Nunito", sans-serif;
-    font-size: 1.728rem;
-    font-weight: 600;
-    color: #4A2E1F;
+    font-family: "Bodoni Moda", serif;
+    font-size: 1.953rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 p {
+    font-family: "Hanken Grotesk", sans-serif;
     font-size: 1rem;
     font-weight: 400;
+    line-height: 1.6;
 }
 
-p2 {
+.emphasis {
+    font-family: "Hanken Grotesk", sans-serif;
     font-size: 1rem;
     font-weight: 700;
+}
+
+.link {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: underline;
 }
 /* ---------- Navbar ---------- */
 .navbar-bakery {
