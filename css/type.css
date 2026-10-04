@@ -1,12 +1,6 @@
 @charset "UTF-8";
 /*CSS Document*/
 
-.specsDiv {
-    background-color: #681D2B;
-    color: #F7F3ED;
-    padding: 1.5rem;
-}
-
 .specs {
     font-family: monospace;
     font-size: 1rem;
@@ -85,6 +79,17 @@ p {
     text-decoration: underline;
     text-underline-offset: 0.2em;
 }
+/* Div Styling */
+.specsDiv {
+    background-color: #681D2B;
+    color: #F7F3ED;
+    padding: 1.5rem;
+}
+
+.border-top {
+    border-color: #D8D0C7 !important;
+}
+
 /* ---------- Navbar ---------- */
 .navbar-bakery {
     background-color: #191817 !important;
@@ -143,13 +148,14 @@ p {
 /* ---------- Footer ---------- */
 .footer-bakery {
     text-align: center;
-    background-color: #6B4226;
-    color: rgba(253, 246, 236, 0.85);
-    font-size: 14px;
+    background-color: #191817;
+    color: #F7F3ED;
+    font-size: 0.8rem;
 }
+
 .footer-bakery p {
     margin: 0;
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 
 /* ---------- Buttons ---------- */
