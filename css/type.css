@@ -95,7 +95,9 @@ p {
 .specsDiv {
     background-color: #681D2B;
     color: #F7F3ED;
-    padding: 1.5rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
 }
 
 .border-top {
