@@ -444,3 +444,255 @@ p {
         font-size: 1.333rem;
     }
 }
+
+
+/* ---------- Home / Index ---------- */
+.home .home-container {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+.home .home-intro {
+    padding-bottom: 3.5rem;
+}
+
+.home .home-title {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #191817;
+    margin-bottom: 1.5rem;
+}
+
+.home .home-title span {
+    display: block;
+}
+
+.home .home-dek {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    max-width: 30rem;
+    margin-bottom: 0;
+}
+
+.home .home-entry {
+    border-top: 1px solid #D8D0C7;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.home .home-entry:last-child {
+    border-bottom: 1px solid #D8D0C7;
+}
+
+.home .entry-number {
+    display: block;
+    font-size: 2rem;
+    line-height: 1;
+    padding-top: 0.35rem;
+}
+
+.home .entry-name {
+    font-size: 3.25rem;
+    line-height: 1.05;
+    letter-spacing: normal;
+    color: #191817;
+    margin-bottom: 0;
+}
+
+.home .entry-face-b {
+    white-space: nowrap;
+}
+
+.home .scale-demo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.75rem;
+    margin-top: 1.75rem;
+    line-height: 1;
+    color: rgba(25, 24, 23, 0.45);
+}
+
+.home .entry-scale {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+}
+
+.home .entry-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.home .entry-note {
+    font-size: 0.875rem;
+    color: rgba(25, 24, 23, 0.7);
+    margin-bottom: 1rem;
+}
+
+.home .entry-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 0.35em;
+}
+
+.home .entry-link:hover,
+.home .entry-link:focus {
+    color: #191817;
+}
+
+/* Hierarchy 1 preview: Bodoni Moda & Hanken Grotesk · Major Third */
+.home .entry-1 .entry-number,
+.home .entry-1 .entry-scale,
+.home .entry-1 .entry-link {
+    color: #681D2B;
+}
+
+.home .entry-1 .entry-number,
+.home .entry-1 .entry-face-a,
+.home .entry-1 .entry-amp,
+.home .entry-1 .scale-demo {
+    font-family: "Bodoni Moda", serif;
+    font-weight: 500;
+}
+
+.home .entry-1 .entry-face-b {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 0.6em;
+    font-weight: 600;
+}
+
+.home .entry-1 .step-0 { font-size: 1rem; }
+.home .entry-1 .step-1 { font-size: 1.25rem; }
+.home .entry-1 .step-2 { font-size: 1.563rem; }
+.home .entry-1 .step-3 { font-size: 1.953rem; }
+.home .entry-1 .step-4 { font-size: 2.441rem; }
+
+/* Hierarchy 2 preview: Bricolage Grotesque · Major Second */
+.home .entry-2 .entry-number,
+.home .entry-2 .entry-scale,
+.home .entry-2 .entry-link {
+    color: #2945A8;
+}
+
+.home .entry-2 .entry-number,
+.home .entry-2 .entry-face-a,
+.home .entry-2 .scale-demo {
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.home .entry-2 .entry-number {
+    font-weight: 700;
+}
+
+.home .entry-2 .entry-face-a {
+    font-weight: 800;
+}
+
+.home .entry-2 .scale-demo {
+    font-weight: 600;
+}
+
+.home .entry-2 .step-0 { font-size: 1rem; }
+.home .entry-2 .step-1 { font-size: 1.125rem; }
+.home .entry-2 .step-2 { font-size: 1.266rem; }
+.home .entry-2 .step-3 { font-size: 1.424rem; }
+.home .entry-2 .step-4 { font-size: 1.602rem; }
+
+/* Hierarchy 3 preview: Instrument Serif & Afacad Flux · Perfect Fourth */
+.home .entry-3 .entry-number,
+.home .entry-3 .entry-scale,
+.home .entry-3 .entry-link {
+    color: #1F5C4A;
+}
+
+.home .entry-3 .entry-number,
+.home .entry-3 .entry-face-a,
+.home .entry-3 .entry-amp,
+.home .entry-3 .scale-demo {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+}
+
+.home .entry-3 .entry-amp {
+    font-style: italic;
+}
+
+.home .entry-3 .entry-face-b {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.home .entry-3 .step-0 { font-size: 1rem; }
+.home .entry-3 .step-1 { font-size: 1.333rem; }
+.home .entry-3 .step-2 { font-size: 1.777rem; }
+.home .entry-3 .step-3 { font-size: 2.369rem; }
+.home .entry-3 .step-4 { font-size: 3.157rem; }
+
+@media (max-width: 767.98px) {
+
+    .home .home-container {
+        padding-top: 2rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .home .home-intro {
+        padding-bottom: 2rem;
+    }
+
+    .home .home-title {
+        font-size: 2.25rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .home .home-dek {
+        font-size: 1.125rem;
+    }
+
+    .home .home-entry {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .home .entry-number {
+        font-size: 1.5rem;
+        padding-top: 0;
+    }
+
+    .home .entry-name {
+        font-size: 2rem;
+    }
+
+    .home .scale-demo {
+        margin-top: 1rem;
+    }
+
+    .home .entry-scale {
+        margin-bottom: 0.5rem;
+    }
+
+    .home .entry-text {
+        margin-bottom: 0.75rem;
+    }
+
+    .home .entry-note {
+        margin-bottom: 0.75rem;
+    }
+
+    .home .entry-link {
+        margin-top: 0.25rem;
+    }
+}

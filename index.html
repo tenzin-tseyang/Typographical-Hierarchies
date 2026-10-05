@@ -9,9 +9,9 @@
 <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@600&family=Bodoni+Moda:opsz,wght@6..96,500&family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Hanken+Grotesk:wght@400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body class="home">
     <nav class="navbar navbar-expand-lg navbar-bakery sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Tenzin Tseyang</a>
@@ -29,9 +29,9 @@
                 Type Hierarchies
               </a>
               <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="hierarchies/hierarchy1.html">Hierarchy1</a></li>
-                <li><a class="dropdown-item" href="hierarchies/hierarchy2.html">Hierarchy2</a></li>
-                <li><a class="dropdown-item" href="hierarchies/hierarchy3.html">Hierarchy3</a></li>
+                <li><a class="dropdown-item" href="hierarchies/hierarchy1.html">Hierarchy 1</a></li>
+                <li><a class="dropdown-item" href="hierarchies/hierarchy2.html">Hierarchy 2</a></li>
+                <li><a class="dropdown-item" href="hierarchies/hierarchy3.html">Hierarchy 3</a></li>
               </ul>
             </li>
           </ul>
@@ -39,23 +39,97 @@
       </div>
     </nav>
 
-    <div class="container-lg">
-      <div class="row pt-4">
-        <div class="col-12 text-center pb-2">
-          <h1>Golden Crumb Bakery &amp; Café</h1>
+    <main class="container-lg home-container">
+      <header class="row home-intro">
+        <div class="col-12 col-lg-10">
+          <h1 class="home-title">
+            <span>Typographical</span>
+            <span>Hierarchies</span>
+          </h1>
+          <p class="home-dek">Three studies in scale, contrast, and typographic expression.</p>
         </div>
-      </div>
-      <div class="row pb-4">
-        <div class="col-12 col-lg-6 pt-3">
-          <h2>Freshly Baked, Always</h2>
-          <p>Lorem ipsum dolor sit amet, croissant lamination butter fold, oven-warm crumb caramelize glaze drizzle. Sourdough starter proof overnight, cinnamon swirl dust powdered sugar, artisan loaf crackle crust consectetur adipiscing elit. Every tray comes out golden and fragrant, from flaky pastries to rustic country bread, baked in small batches from sunrise.</p>
+      </header>
+
+      <section class="home-entry entry-1">
+        <div class="row">
+          <div class="col-12 col-md-2 col-lg-1 mb-2 mb-md-0">
+            <span class="entry-number">01</span>
+          </div>
+          <div class="col-12 col-md-10 col-lg-6">
+            <h2 class="entry-name">
+              <span class="entry-face-a">Bodoni Moda</span>
+              <span class="entry-amp">&amp;</span>
+              <span class="entry-face-b">Hanken Grotesk</span>
+            </h2>
+            <div class="scale-demo" aria-hidden="true">
+              <span class="step-0">Aa</span>
+              <span class="step-1">Aa</span>
+              <span class="step-2">Aa</span>
+              <span class="step-3">Aa</span>
+              <span class="step-4">Aa</span>
+            </div>
+          </div>
+          <div class="col-12 col-md-10 offset-md-2 col-lg-4 offset-lg-1 mt-3 mt-md-4 mt-lg-0">
+            <p class="entry-scale">Major Third · 1.250</p>
+            <p class="entry-text">Each level grows by a quarter. The steps are noticeable but controlled, giving strong contrast with an elegant editorial rhythm.</p>
+            <a class="entry-link" href="hierarchies/hierarchy1.html">Explore Hierarchy <span aria-hidden="true">&rarr;</span></a>
+          </div>
         </div>
-        <div class="col-12 col-lg-6 pt-3">
-          <h2>Sip Something Warm</h2>
-          <p>Steamed milk foam latte art, matcha whisk ceremonial grade, hot chocolate marshmallow drizzle. Cookie dough chunk melt center, tart shell buttery flake, seasonal spice blend cardamom nutmeg sit amet. Pair any pastry with a slow-brewed coffee, a fragrant loose-leaf tea, or a rich hot chocolate for the perfect afternoon break.</p>
+      </section> <!-- Close Hierarchy 1 -->
+
+      <section class="home-entry entry-2">
+        <div class="row">
+          <div class="col-12 col-md-2 col-lg-1 mb-2 mb-md-0">
+            <span class="entry-number">02</span>
+          </div>
+          <div class="col-12 col-md-10 col-lg-6">
+            <h2 class="entry-name">
+              <span class="entry-face-a">Bricolage Grotesque</span>
+            </h2>
+            <div class="scale-demo" aria-hidden="true">
+              <span class="step-0">Aa</span>
+              <span class="step-1">Aa</span>
+              <span class="step-2">Aa</span>
+              <span class="step-3">Aa</span>
+              <span class="step-4">Aa</span>
+            </div>
+          </div>
+          <div class="col-12 col-md-10 offset-md-2 col-lg-4 offset-lg-1 mt-3 mt-md-4 mt-lg-0">
+            <p class="entry-scale">Major Second · 1.125</p>
+            <p class="entry-text">A tighter progression between levels. The hierarchy stays compact and restrained, leaning on weight and the character of a single typeface for contrast.</p>
+            <p class="entry-note">One typeface throughout the specimen.</p>
+            <a class="entry-link" href="hierarchies/hierarchy2.html">Explore Hierarchy <span aria-hidden="true">&rarr;</span></a>
+          </div>
         </div>
-      </div>
-    </div> <!-- Close container -->
+      </section> <!-- Close Hierarchy 2 -->
+
+      <section class="home-entry entry-3">
+        <div class="row">
+          <div class="col-12 col-md-2 col-lg-1 mb-2 mb-md-0">
+            <span class="entry-number">03</span>
+          </div>
+          <div class="col-12 col-md-10 col-lg-6">
+            <h2 class="entry-name">
+              <span class="entry-face-a">Instrument Serif</span>
+              <span class="entry-amp">&amp;</span>
+              <span class="entry-face-b">Afacad Flux</span>
+            </h2>
+            <div class="scale-demo" aria-hidden="true">
+              <span class="step-0">Aa</span>
+              <span class="step-1">Aa</span>
+              <span class="step-2">Aa</span>
+              <span class="step-3">Aa</span>
+              <span class="step-4">Aa</span>
+            </div>
+          </div>
+          <div class="col-12 col-md-10 offset-md-2 col-lg-4 offset-lg-1 mt-3 mt-md-4 mt-lg-0">
+            <p class="entry-scale">Perfect Fourth · 1.333</p>
+            <p class="entry-text">The most dramatic jump between levels. Display type gains real impact, sharpening the contrast between the editorial serif and the contemporary sans.</p>
+            <a class="entry-link" href="hierarchies/hierarchy3.html">Explore Hierarchy <span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </div>
+      </section> <!-- Close Hierarchy 3 -->
+    </main> <!-- Close container -->
 
     <div class="footer-bakery border-top py-3">
       <p>Copyright &copy; Tenzin Tseyang</p>
