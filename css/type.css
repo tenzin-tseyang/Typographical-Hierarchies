@@ -348,3 +348,99 @@ p {
 .hierarchy-2 .specimen-label {
     color: #2945A8;
 }
+
+
+/* ---------- Hierarchy 3: Instrument Serif & Afacad Flux · Perfect Fourth (1.333) ---------- */
+.hierarchy-3 .title {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+}
+
+.hierarchy-3 .title-scale {
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.hierarchy-3 .specimen-label {
+    font-family: "Afacad Flux", sans-serif;
+    color: #1F5C4A;
+}
+
+.hierarchy-3 h1:not(.title) {
+    font-family: "Instrument Serif", serif;
+    font-size: 5.61rem;
+    font-weight: 400;
+    line-height: 0.95;
+    letter-spacing: normal;
+    color: #191817;
+}
+
+.hierarchy-3 h2 {
+    font-family: "Instrument Serif", serif;
+    font-size: 4.209rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #191817;
+}
+
+.hierarchy-3 h3 {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 3.157rem;
+    font-weight: 600;
+    line-height: 1.05;
+    color: #191817;
+}
+
+.hierarchy-3 h4 {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 2.369rem;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #191817;
+}
+
+.hierarchy-3 .hierarchy-container p:not(.specimen-label) {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #191817;
+}
+
+.hierarchy-3 .emphasis {
+    font-family: "Instrument Serif", serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    color: #1F5C4A;
+}
+
+.hierarchy-3 .link {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1F5C4A;
+}
+
+.hierarchy-3 .specsDiv {
+    background-color: #1F5C4A;
+}
+
+@media (max-width: 767.98px) {
+
+    .hierarchy-3 h1:not(.title) {
+        font-size: 3.157rem;
+    }
+
+    .hierarchy-3 h2 {
+        font-size: 2.369rem;
+    }
+
+    .hierarchy-3 h3 {
+        font-size: 1.777rem;
+    }
+
+    .hierarchy-3 h4 {
+        font-size: 1.333rem;
+    }
+}
