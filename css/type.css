@@ -96,6 +96,16 @@ p {
     text-decoration: underline;
     text-underline-offset: 0.2em;
 }
+
+.specimen-label {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #8A5360;
+    margin-bottom: 0.75rem;
+}
 /* -------- Div Styling --------- */
 .specimen-row {
     padding-top: 2rem;
