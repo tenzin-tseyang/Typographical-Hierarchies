@@ -18,11 +18,12 @@
 
 .title {
     font-family: "Bodoni Moda", serif;
-    font-size: 3.815rem;
+    font-size: 3.052rem;
     font-weight: 500;
     line-height: 1.05;
     color: #191817;
     margin-bottom: 0.75rem;
+    max-width: 60rem;
 }
 
 /* ---------- Base typography ---------- */
