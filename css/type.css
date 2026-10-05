@@ -278,3 +278,73 @@ p {
         margin-bottom: 0;
     }
 }
+
+
+/* ---------- Hierarchy 2: Bricolage Grotesque · Major Second (1.125) ---------- */
+.hierarchy-2 .title,
+.hierarchy-2 .title-scale,
+.hierarchy-2 .specimen-label {
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.hierarchy-2 h1:not(.title) {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 2.027rem;
+    font-weight: 800;
+    line-height: 1.05;
+    color: #191817;
+}
+
+.hierarchy-2 h2 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1.802rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #191817;
+}
+
+.hierarchy-2 h3 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1.602rem;
+    font-weight: 600;
+    line-height: 1.15;
+    color: #191817;
+}
+
+.hierarchy-2 h4 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1.424rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #191817;
+}
+
+.hierarchy-2 .hierarchy-container p:not(.specimen-label) {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #191817;
+}
+
+.hierarchy-2 .emphasis {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2945A8;
+}
+
+.hierarchy-2 .link {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #2945A8;
+}
+
+.hierarchy-2 .specsDiv {
+    background-color: #2945A8;
+}
+
+.hierarchy-2 .specimen-label {
+    color: #2945A8;
+}
