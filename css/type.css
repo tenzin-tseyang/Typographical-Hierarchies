@@ -263,10 +263,9 @@ p {
     }
 
     .title {
-    font-size: 2rem;
+    font-size: clamp(1.8rem, 6vw, 2.441rem);
     line-height: 1.1;
     letter-spacing: -0.02em;
-    white-space: nowrap;
     }
 
     .specimen-row {
