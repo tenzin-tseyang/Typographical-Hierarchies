@@ -86,7 +86,12 @@ p {
     text-decoration: underline;
     text-underline-offset: 0.2em;
 }
-/* Div Styling */
+/* -------- Div Styling --------- */
+.specimen-row {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 .specsDiv {
     background-color: #681D2B;
     color: #F7F3ED;
