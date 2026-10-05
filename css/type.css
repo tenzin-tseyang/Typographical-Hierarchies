@@ -1,6 +1,11 @@
 @charset "UTF-8";
 /*CSS Document*/
 
+.hierarchy-container {
+    padding-top: 2.5rem;
+    padding-bottom: 4rem;
+}
+
 .specs {
     font-family: monospace;
     font-size: 1rem;
