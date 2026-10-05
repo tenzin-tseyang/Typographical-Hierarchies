@@ -253,3 +253,26 @@ p {
 .accordion-button:focus {
     box-shadow: 0 0 0 0.25rem rgba(226, 147, 79, 0.35);
 }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 767.98px) {
+
+    .hierarchy-container {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .title {
+        font-size: 2.441rem;
+        line-height: 1.05;
+    }
+
+    .specimen-row {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .specsDiv {
+        padding: 1.5rem;
+    }
+}
