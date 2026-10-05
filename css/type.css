@@ -26,6 +26,16 @@
     max-width: 60rem;
 }
 
+.title-scale {
+    display: block;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-top: 0.75rem;
+}
+
 /* ---------- Base typography ---------- */
 body {
     font-family: "Hanken Grotesk", sans-serif;
