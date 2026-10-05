@@ -1,0 +1,280 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+.hierarchy-container {
+    padding-top: 2.5rem;
+    padding-bottom: 4rem;
+}
+
+.specs {
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #F7F3ED;
+    margin-bottom: 0;
+
+}
+
+.title {
+    font-family: "Bodoni Moda", serif;
+    font-size: 3.052rem;
+    font-weight: 500;
+    line-height: 1.05;
+    color: #191817;
+    margin-bottom: 0.75rem;
+    max-width: 60rem;
+}
+
+.title-scale {
+    display: block;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-top: 0.75rem;
+}
+
+/* ---------- Base typography ---------- */
+body {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    background-color: #F7F3ED;
+    color: #191817;
+}
+
+h1 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 3.815rem;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #191817;
+}
+
+h2 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 3.052rem;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #191817;
+}
+
+h3 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 2.441rem;
+    font-weight: 500;
+    line-height: 1.15;
+    color: #191817;
+}
+
+h4 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 1.953rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #191817;
+}
+
+h1,
+h2,
+h3,
+h4,
+.title {
+    letter-spacing: -0.02em;
+}
+
+p {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.emphasis {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #681D2B;
+}
+
+.link {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #681D2B;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
+.specimen-label {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #8A5360;
+    margin-bottom: 0.75rem;
+}
+/* -------- Div Styling --------- */
+.specimen-row {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.specimen-row p {
+    max-width: 38rem;
+}
+
+.specsDiv {
+    background-color: #681D2B;
+    color: #F7F3ED;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.border-top {
+    border-color: #D8D0C7 !important;
+}
+
+/* ---------- Navbar ---------- */
+.navbar-bakery {
+    background-color: #191817 !important;
+}
+
+.navbar-brand {
+    color: #F7F3ED !important;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.navbar-bakery .nav-link {
+    color: #F7F3ED !important;
+    font-weight: 500;
+}
+
+.navbar-bakery .nav-link:hover,
+.navbar-bakery .nav-link:focus {
+    color: #D8D0C7 !important;
+}
+
+.navbar-bakery .nav-link.active {
+    color: #F7F3ED !important;
+    border-bottom: 2px solid #681D2B;
+}
+
+.navbar-bakery .navbar-toggler {
+    border-color: rgba(247, 243, 237, 0.5);
+}
+
+.navbar-bakery .navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+.navbar-bakery .dropdown-menu {
+    background-color: #191817;
+}
+
+.navbar-bakery .dropdown-item {
+    color: #F7F3ED;
+    font-weight: 500;
+}
+
+.navbar-bakery .dropdown-item:hover,
+.navbar-bakery .dropdown-item:focus {
+    background-color: #681D2B;
+    color: #F7F3ED;
+}
+
+.navbar-bakery .dropdown-item.active {
+    background-color: #681D2B;
+    color: #F7F3ED;
+}
+
+/* ---------- Footer ---------- */
+.footer-bakery {
+    text-align: center;
+    background-color: #191817;
+    color: #F7F3ED;
+    font-size: 0.8rem;
+}
+
+.footer-bakery p {
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+/* ---------- Buttons ---------- */
+.btn-primary {
+    background-color: #E2934F;
+    border-color: #E2934F;
+    color: #4A2E1F;
+    font-weight: 700;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #C97A3B;
+    border-color: #C97A3B;
+    color: #FDF6EC;
+}
+
+.btn-secondary {
+    background-color: #D98E8E !important;
+    border-color: #D98E8E !important;
+    color: #4A2E1F;
+    font-weight: 700;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+    background-color: #C06B6B !important;
+    border-color: #C06B6B !important;
+    color: #FDF6EC;
+}
+
+/* ---------- Cards ---------- */
+.card {
+    border-color: #F0DCC5;
+}
+.card-title {
+    color: #4A2E1F;
+    font-weight: 700;
+}
+
+/* ---------- Accordion (component page) ---------- */
+.accordion-button:not(.collapsed) {
+    background-color: #F6C89F;
+    color: #4A2E1F;
+}
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(226, 147, 79, 0.35);
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 767.98px) {
+
+    .hierarchy-container {
+        padding-top: 2.5rem;
+        padding-bottom: 3rem;
+    }
+
+    .title {
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+    }
+
+    .specimen-row {
+        padding-top: 1.5rem;
+        padding-bottom: 0;
+    }
+
+    .specsDiv {
+        padding: 1.5rem;
+        margin-bottom: 0;
+    }
+}
