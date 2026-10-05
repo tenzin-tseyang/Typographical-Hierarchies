@@ -66,6 +66,14 @@ h4 {
     color: #191817;
 }
 
+h1,
+h2,
+h3,
+h4,
+.title {
+    letter-spacing: -0.02em;
+}
+
 p {
     font-family: "Hanken Grotesk", sans-serif;
     font-size: 1rem;
