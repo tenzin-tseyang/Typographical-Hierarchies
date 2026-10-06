@@ -212,13 +212,11 @@ p {
 @media (max-width: 767.98px) {
 
     .hierarchy-container {
-        padding-top: 2.5rem;
         padding-bottom: 3rem;
     }
 
     .title {
         line-height: 1.1;
-        letter-spacing: -0.02em;
     }
 
     .specimen-row {
@@ -228,7 +226,6 @@ p {
 
     .specsDiv {
         padding: 1.5rem;
-        margin-bottom: 0;
     }
 }
 
