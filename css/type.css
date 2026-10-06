@@ -212,6 +212,7 @@ p {
 @media (max-width: 767.98px) {
 
     .hierarchy-container {
+        padding-top: 1.5rem;
         padding-bottom: 3rem;
     }
 
