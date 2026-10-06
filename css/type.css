@@ -140,7 +140,7 @@ p {
 }
 
 /* ---------- Navbar ---------- */
-.navbar-bakery {
+.navbar-type {
     background-color: #191817 !important;
 }
 
@@ -151,107 +151,60 @@ p {
     letter-spacing: 0.02em;
 }
 
-.navbar-bakery .nav-link {
+.navbar-type .nav-link {
     color: #F7F3ED !important;
     font-weight: 500;
 }
 
-.navbar-bakery .nav-link:hover,
-.navbar-bakery .nav-link:focus {
+.navbar-type .nav-link:hover,
+.navbar-type .nav-link:focus {
     color: #D8D0C7 !important;
 }
 
-.navbar-bakery .nav-link.active {
+.navbar-type .nav-link.active {
     color: #F7F3ED !important;
     border-bottom: 2px solid #681D2B;
 }
 
-.navbar-bakery .navbar-toggler {
+.navbar-type .navbar-toggler {
     border-color: rgba(247, 243, 237, 0.5);
 }
 
-.navbar-bakery .navbar-toggler-icon {
+.navbar-type .navbar-toggler-icon {
     filter: invert(100%);
 }
 
-.navbar-bakery .dropdown-menu {
+.navbar-type .dropdown-menu {
     background-color: #191817;
 }
 
-.navbar-bakery .dropdown-item {
+.navbar-type .dropdown-item {
     color: #F7F3ED;
     font-weight: 500;
 }
 
-.navbar-bakery .dropdown-item:hover,
-.navbar-bakery .dropdown-item:focus {
+.navbar-type .dropdown-item:hover,
+.navbar-type .dropdown-item:focus {
     background-color: #681D2B;
     color: #F7F3ED;
 }
 
-.navbar-bakery .dropdown-item.active {
+.navbar-type .dropdown-item.active {
     background-color: #681D2B;
     color: #F7F3ED;
 }
 
 /* ---------- Footer ---------- */
-.footer-bakery {
+.footer-type {
     text-align: center;
     background-color: #191817;
     color: #F7F3ED;
     font-size: 0.8rem;
 }
 
-.footer-bakery p {
+.footer-type p {
     margin: 0;
     font-size: 0.8rem;
-}
-
-/* ---------- Buttons ---------- */
-.btn-primary {
-    background-color: #E2934F;
-    border-color: #E2934F;
-    color: #4A2E1F;
-    font-weight: 700;
-}
-
-.btn-primary:hover,
-.btn-primary:focus {
-    background-color: #C97A3B;
-    border-color: #C97A3B;
-    color: #FDF6EC;
-}
-
-.btn-secondary {
-    background-color: #D98E8E !important;
-    border-color: #D98E8E !important;
-    color: #4A2E1F;
-    font-weight: 700;
-}
-
-.btn-secondary:hover,
-.btn-secondary:focus {
-    background-color: #C06B6B !important;
-    border-color: #C06B6B !important;
-    color: #FDF6EC;
-}
-
-/* ---------- Cards ---------- */
-.card {
-    border-color: #F0DCC5;
-}
-.card-title {
-    color: #4A2E1F;
-    font-weight: 700;
-}
-
-/* ---------- Accordion (component page) ---------- */
-.accordion-button:not(.collapsed) {
-    background-color: #F6C89F;
-    color: #4A2E1F;
-}
-.accordion-button:focus {
-    box-shadow: 0 0 0 0.25rem rgba(226, 147, 79, 0.35);
 }
 
 /* ---------- Responsive ---------- */
