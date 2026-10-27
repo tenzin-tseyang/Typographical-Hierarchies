@@ -1,139 +1,190 @@
+
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Type Hierarchies</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/type.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@600&family=Bodoni+Moda:opsz,wght@6..96,500&family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Hanken+Grotesk:wght@400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-  </head>
-  <body class="home">
-    <nav class="navbar navbar-expand-lg navbar-type sticky-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Tenzin Tseyang</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Type Hierarchies
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="hierarchies/hierarchy1.html">Hierarchy 1</a></li>
-                <li><a class="dropdown-item" href="hierarchies/hierarchy2.html">Hierarchy 2</a></li>
-                <li><a class="dropdown-item" href="hierarchies/hierarchy3.html">Hierarchy 3</a></li>
-              </ul>
-            </li>
-          </ul>
+  <title>TENZIN | Logo Design</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/TENZIN_Favicon_32px.svg">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/type.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">TENZIN</a>
+
+      <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#variations">Logo Variations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#colors">Color Palette</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#guidelines">Usage Guidelines</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- Introduction -->
+    <header class="container py-5" id="home">
+      <div class="row align-items-center g-4">
+        <div class="col-md-4 text-center">
+          <img src="images/TENZIN_Logo_DustyBlue.svg"
+              alt="TENZIN decorative T monogram"
+              class="hero-logo">
+        </div>
+        <div class="col-md-8">
+          <p class="eyebrow">LOGO DESIGN</p>
+          <h1>TENZIN</h1>
+          <p class="lead">
+            A personal monogram that balances elegance,
+            creativity, and approachability.
+          </p>
         </div>
       </div>
-    </nav>
+    </header>
 
-    <main class="container-lg home-container">
-      <header class="row home-intro">
-        <div class="col-12">
-          <h1 class="home-title">
-            <span class="d-lg-inline">Typographical</span>
-            <span class="d-lg-inline">Hierarchies</span>
-          </h1>
-          <p class="home-dek">Three studies in scale, contrast, and typographic expression.</p>
+    <!-- Logo Variations -->
+    <section class="container py-5" id="variations">
+      <h2 class="section-title mb-4">Logo Variations</h2>
+
+      <div class="row g-4">
+
+        <!-- Black -->
+        <div class="col-md-6 col-lg-3">
+          <div class="logo-preview light-preview">
+            <img src="images/TENZIN_Logo_Black.svg"
+                alt="Black T monogram on white">
+          </div>
+          <p class="variation-number">01</p>
+          <h3>Black &amp; White</h3>
+          <p>
+            The black logo is designed for white or light
+            backgrounds, print materials, and monochrome use.
+          </p>
         </div>
-      </header>
 
-      <section class="home-entry entry-1">
-        <div class="row">
-          <div class="col-12 col-md-2 col-lg-1 mb-2 mb-md-0">
-            <span class="entry-number">01</span>
+        <!-- Color -->
+        <div class="col-md-6 col-lg-3">
+          <div class="logo-preview ivory-preview">
+            <img src="images/TENZIN_Logo_DustyBlue.svg"
+                alt="Dusty blue T monogram">
           </div>
-          <div class="col-12 col-md-10 col-lg-6">
-            <h2 class="entry-name">
-              <span class="entry-face-a">Bodoni Moda</span>
-              <span class="entry-amp">&amp;</span>
-              <span class="entry-face-b">Hanken Grotesk</span>
-            </h2>
-            <div class="scale-demo" aria-hidden="true">
-              <span class="step-0">Aa</span>
-              <span class="step-1">Aa</span>
-              <span class="step-2">Aa</span>
-              <span class="step-3">Aa</span>
-              <span class="step-4">Aa</span>
-            </div>
-          </div>
-          <div class="col-12 col-md-10 offset-md-2 col-lg-4 offset-lg-1 mt-3 mt-md-4 mt-lg-0">
-            <p class="entry-scale">Major Third · 1.250</p>
-            <p class="entry-text">Each level grows by a quarter. The steps are noticeable but controlled, giving strong contrast with an elegant editorial rhythm.</p>
-            <a class="entry-link" href="hierarchies/hierarchy1.html">Explore Hierarchy <span aria-hidden="true">&rarr;</span><span class="visually-hidden"> 1: Bodoni Moda and Hanken Grotesk</span></a>
-          </div>
+          <p class="variation-number">02</p>
+          <h3>Color Variation</h3>
+          <p>
+            The primary Dusty Blue logo is intended for
+            portfolio branding, websites, and digital materials.
+          </p>
         </div>
-      </section> <!-- Close Hierarchy 1 -->
 
-      <section class="home-entry entry-2">
-        <div class="row">
-          <div class="col-12 col-md-2 col-lg-1 mb-2 mb-md-0">
-            <span class="entry-number">02</span>
+        <!-- Reverse -->
+        <div class="col-md-6 col-lg-3">
+          <div class="logo-preview blue-preview">
+            <img src="images/TENZIN_Logo_Reversed.svg"
+                alt="Reversed T monogram in ivory">
           </div>
-          <div class="col-12 col-md-10 col-lg-6">
-            <h2 class="entry-name">
-              <span class="entry-face-a">Bricolage Grotesque</span>
-            </h2>
-            <div class="scale-demo" aria-hidden="true">
-              <span class="step-0">Aa</span>
-              <span class="step-1">Aa</span>
-              <span class="step-2">Aa</span>
-              <span class="step-3">Aa</span>
-              <span class="step-4">Aa</span>
-            </div>
-          </div>
-          <div class="col-12 col-md-10 offset-md-2 col-lg-4 offset-lg-1 mt-3 mt-md-4 mt-lg-0">
-            <p class="entry-scale">Major Second · 1.125</p>
-            <p class="entry-text">A tighter progression between levels. The hierarchy stays compact and restrained, leaning on weight and the character of a single typeface for contrast.</p>
-            <p class="entry-note">One typeface throughout the specimen.</p>
-            <a class="entry-link" href="hierarchies/hierarchy2.html">Explore Hierarchy <span aria-hidden="true">&rarr;</span><span class="visually-hidden"> 2: Bricolage Grotesque</span></a>
-          </div>
+          <p class="variation-number">03</p>
+          <h3>Reverse Version</h3>
+          <p>
+            The reversed logo is designed for dark backgrounds,
+            providing contrast and clear visibility.
+          </p>
         </div>
-      </section> <!-- Close Hierarchy 2 -->
 
-      <section class="home-entry entry-3">
-        <div class="row">
-          <div class="col-12 col-md-2 col-lg-1 mb-2 mb-md-0">
-            <span class="entry-number">03</span>
+        <!-- Favicon -->
+        <div class="col-md-6 col-lg-3">
+          <div class="logo-preview light-preview">
+            <img src="images/TENZIN_Favicon_32px.svg"
+                alt="TENZIN favicon"
+                class="favicon-preview">
           </div>
-          <div class="col-12 col-md-10 col-lg-6">
-            <h2 class="entry-name">
-              <span class="entry-face-a">Instrument Serif</span>
-              <span class="entry-amp">&amp;</span>
-              <span class="entry-face-b">Afacad Flux</span>
-            </h2>
-            <div class="scale-demo" aria-hidden="true">
-              <span class="step-0">Aa</span>
-              <span class="step-1">Aa</span>
-              <span class="step-2">Aa</span>
-              <span class="step-3">Aa</span>
-              <span class="step-4">Aa</span>
-            </div>
-          </div>
-          <div class="col-12 col-md-10 offset-md-2 col-lg-4 offset-lg-1 mt-3 mt-md-4 mt-lg-0">
-            <p class="entry-scale">Perfect Fourth · 1.333</p>
-            <p class="entry-text">The most dramatic jump between levels. Display type gains real impact, sharpening the contrast between the editorial serif and the contemporary sans.</p>
-            <a class="entry-link" href="hierarchies/hierarchy3.html">Explore Hierarchy <span aria-hidden="true">&rarr;</span><span class="visually-hidden"> 3: Instrument Serif and Afacad Flux</span></a>
-          </div>
+          <p class="variation-number">04</p>
+          <h3>Favicon</h3>
+          <p>
+            A compact 32 × 32 px version of the monogram
+            for browser tabs and small digital applications.
+          </p>
         </div>
-      </section> <!-- Close Hierarchy 3 -->
-    </main> <!-- Close container -->
 
-    <footer class="footer-type border-top py-3">
-      <p>Copyright &copy; Tenzin Tseyang</p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+      </div>
+    </section>
+
+    <!-- Color Palette -->
+    <section class="container py-5" id="colors">
+      <h2 class="section-title mb-4">Color Palette</h2>
+
+      <div class="row g-3">
+        <div class="col-6 col-md-3">
+          <div class="color-swatch dusty-blue"></div>
+          <p>Dusty Blue<br>#647D91</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="color-swatch light-blue"></div>
+          <p>Light Blue<br>#B5C6D0</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="color-swatch ivory"></div>
+          <p>Ivory<br>#F7F5F0</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="color-swatch dark-navy"></div>
+          <p>Dark Navy<br>#293B49</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Guidelines -->
+    <section class="container py-5" id="guidelines">
+      <h2 class="section-title mb-4">Usage Guidelines</h2>
+
+      <ol>
+        <li>Maintain clear space around the monogram.</li>
+        <li>Use dark logo variations on light backgrounds.</li>
+        <li>Use the reversed logo on dark backgrounds.</li>
+        <li>Preserve the logo's original proportions.</li>
+        <li>Use the 32 × 32 px favicon in browser tabs.</li>
+      </ol>
+    </section>
+
+  </main>
+
+  <footer class="py-4">
+    <div class="container d-flex justify-content-between flex-wrap gap-2">
+      <p class="mb-0">&copy; 2026 Tenzin Tseyang</p>
+      <a href="#home">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
