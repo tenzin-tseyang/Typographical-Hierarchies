@@ -1,667 +1,246 @@
-@charset "UTF-8";
-/*CSS Document*/
 
-.hierarchy-container {
-    padding-top: 2.5rem;
-    padding-bottom: 4rem;
+/* TENZIN Logo Presentation */
+
+:root {
+    --dusty-blue: #647D91;
+    --light-blue: #B5C6D0;
+    --ivory: #F7F5F0;
+    --dark-navy: #293B49;
 }
 
-.specs {
-    font-family: monospace;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.6;
-    color: #F7F3ED;
-    margin-bottom: 0;
-
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 85px;
 }
 
-.title {
-    font-family: "Bodoni Moda", serif;
-    font-size: 3.052rem;
-    font-weight: 500;
-    line-height: 1.05;
-    color: #191817;
-    margin-bottom: 0.75rem;
-    max-width: 60rem;
-}
-
-.title-scale {
-    display: block;
-    font-family: "Hanken Grotesk", sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    margin-top: 0.75rem;
-}
-
-/* ---------- Base typography ---------- */
 body {
-    font-family: "Hanken Grotesk", sans-serif;
-    font-weight: 400;
-    line-height: 1.6;
-    background-color: #F7F3ED;
-    color: #191817;
+    background-color: #ffffff;
+    color: var(--dark-navy);
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.7;
 }
 
-h1 {
-    font-family: "Bodoni Moda", serif;
-    font-size: 3.815rem;
-    font-weight: 500;
-    line-height: 1.1;
-    color: #191817;
-}
+/* Navigation */
 
-h2 {
-    font-family: "Bodoni Moda", serif;
-    font-size: 3.052rem;
-    font-weight: 500;
-    line-height: 1.1;
-    color: #191817;
-}
-
-h3 {
-    font-family: "Bodoni Moda", serif;
-    font-size: 2.441rem;
-    font-weight: 500;
-    line-height: 1.15;
-    color: #191817;
-}
-
-h4 {
-    font-family: "Bodoni Moda", serif;
-    font-size: 1.953rem;
-    font-weight: 500;
-    line-height: 1.2;
-    color: #191817;
-}
-
-h1,
-h2,
-h3,
-h4,
-.title {
-    letter-spacing: -0.02em;
-}
-
-p {
-    font-family: "Hanken Grotesk", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.6;
-}
-
-.emphasis {
-    font-family: "Hanken Grotesk", sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    color: #681D2B;
-}
-
-.link {
-    font-family: "Hanken Grotesk", sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
-    color: #681D2B;
-    text-decoration: underline;
-    text-underline-offset: 0.2em;
-}
-
-.specimen-label {
-    font-family: "Hanken Grotesk", sans-serif;
-    font-size: 0.75rem;
-    font-weight: 600;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #8A5360;
-    margin-bottom: 0.75rem;
-}
-/* -------- Div Styling --------- */
-.specimen-row {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-.specimen-row p {
-    max-width: 38rem;
-}
-
-.specsDiv {
-    background-color: #681D2B;
-    color: #F7F3ED;
-    padding: 2rem;
-    display: flex;
-    align-items: center;
-}
-
-.border-top {
-    border-color: #D8D0C7 !important;
-}
-
-/* ---------- Navbar ---------- */
-.navbar-type {
-    background-color: #191817 !important;
+.navbar {
+    background-color: var(--dusty-blue);
+    padding: 16px 0;
 }
 
 .navbar-brand {
-    color: #F7F3ED !important;
-    font-family: "Hanken Grotesk", sans-serif;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-}
-
-.navbar-type .nav-link {
-    color: #F7F3ED !important;
+    color: white;
+    font-size: 1.4rem;
     font-weight: 500;
+    letter-spacing: 0.3em;
 }
 
-.navbar-type .nav-link:hover,
-.navbar-type .nav-link:focus {
-    color: #D8D0C7 !important;
+.navbar-brand:hover,
+.navbar-brand:focus {
+    color: var(--ivory);
 }
 
-.navbar-type .nav-link.active {
-    color: #F7F3ED !important;
-    border-bottom: 2px solid #681D2B;
+.navbar .nav-link {
+    color: white;
+    font-size: 0.9rem;
+    margin-left: 20px;
 }
 
-.navbar-type .navbar-toggler {
-    border-color: rgba(247, 243, 237, 0.5);
-}
-
-.navbar-type .navbar-toggler-icon {
-    filter: invert(100%);
-}
-
-.navbar-type .dropdown-menu {
-    background-color: #191817;
-}
-
-.navbar-type .dropdown-item {
-    color: #F7F3ED;
-    font-weight: 500;
-}
-
-.navbar-type .dropdown-item:hover,
-.navbar-type .dropdown-item:focus {
-    background-color: #681D2B;
-    color: #F7F3ED;
-}
-
-.navbar-type .dropdown-item.active {
-    background-color: #681D2B;
-    color: #F7F3ED;
-}
-
-/* ---------- Footer ---------- */
-.footer-type {
-    text-align: center;
-    background-color: #191817;
-    color: #F7F3ED;
-    font-size: 0.8rem;
-}
-
-.footer-type p {
-    margin: 0;
-    font-size: 0.8rem;
-}
-
-/* ---------- Responsive ---------- */
-
-@media (max-width: 767.98px) {
-
-    .hierarchy-container {
-        padding-top: 1.5rem;
-        padding-bottom: 3rem;
-    }
-
-    .title {
-        line-height: 1.1;
-    }
-
-    .specimen-row {
-        padding-top: 1.5rem;
-        padding-bottom: 0;
-    }
-
-    .specsDiv {
-        padding: 1.5rem;
-    }
-}
-
-
-/* ---------- Hierarchy 2: Bricolage Grotesque · Major Second (1.125) ---------- */
-.hierarchy-2 .title,
-.hierarchy-2 .title-scale,
-.hierarchy-2 .specimen-label {
-    font-family: "Bricolage Grotesque", sans-serif;
-}
-
-.hierarchy-2 h1:not(.title) {
-    font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 2.027rem;
-    font-weight: 800;
-    line-height: 1.05;
-    color: #191817;
-}
-
-.hierarchy-2 h2 {
-    font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 1.802rem;
-    font-weight: 700;
-    line-height: 1.1;
-    color: #191817;
-}
-
-.hierarchy-2 h3 {
-    font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 1.602rem;
-    font-weight: 600;
-    line-height: 1.15;
-    color: #191817;
-}
-
-.hierarchy-2 h4 {
-    font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 1.424rem;
-    font-weight: 500;
-    line-height: 1.2;
-    color: #191817;
-}
-
-.hierarchy-2 .hierarchy-container p:not(.specimen-label) {
-    font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.6;
-    color: #191817;
-}
-
-.hierarchy-2 .emphasis {
-    font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    color: #2945A8;
-}
-
-.hierarchy-2 .link {
-    font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
-    color: #2945A8;
-}
-
-.hierarchy-2 .specsDiv {
-    background-color: #2945A8;
-}
-
-.hierarchy-2 .specimen-label {
-    color: #2945A8;
-}
-
-
-/* ---------- Hierarchy 3: Instrument Serif & Afacad Flux · Perfect Fourth (1.333) ---------- */
-.hierarchy-3 .title {
-    font-family: "Instrument Serif", serif;
-    font-weight: 400;
-}
-
-.hierarchy-3 .title-scale {
-    font-family: "Afacad Flux", sans-serif;
-}
-
-.hierarchy-3 .specimen-label {
-    font-family: "Afacad Flux", sans-serif;
-    color: #1F5C4A;
-}
-
-.hierarchy-3 h1:not(.title) {
-    font-family: "Instrument Serif", serif;
-    font-size: 5.61rem;
-    font-weight: 400;
-    line-height: 0.95;
-    letter-spacing: normal;
-    color: #191817;
-}
-
-.hierarchy-3 h2 {
-    font-family: "Instrument Serif", serif;
-    font-size: 4.209rem;
-    font-weight: 400;
-    line-height: 1;
-    letter-spacing: normal;
-    color: #191817;
-}
-
-.hierarchy-3 h3 {
-    font-family: "Afacad Flux", sans-serif;
-    font-size: 3.157rem;
-    font-weight: 600;
-    line-height: 1.05;
-    color: #191817;
-}
-
-.hierarchy-3 h4 {
-    font-family: "Afacad Flux", sans-serif;
-    font-size: 2.369rem;
-    font-weight: 500;
-    line-height: 1.1;
-    color: #191817;
-}
-
-.hierarchy-3 .hierarchy-container p:not(.specimen-label) {
-    font-family: "Afacad Flux", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.6;
-    color: #191817;
-}
-
-.hierarchy-3 .emphasis {
-    font-family: "Instrument Serif", serif;
-    font-size: 1rem;
-    font-weight: 400;
-    font-style: italic;
-    color: #1F5C4A;
-}
-
-.hierarchy-3 .link {
-    font-family: "Afacad Flux", sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
-    color: #1F5C4A;
-}
-
-.hierarchy-3 .specsDiv {
-    background-color: #1F5C4A;
-}
-
-@media (max-width: 767.98px) {
-
-    .hierarchy-3 h1:not(.title) {
-        font-size: 3.157rem;
-    }
-
-    .hierarchy-3 h2 {
-        font-size: 2.369rem;
-    }
-
-    .hierarchy-3 h3 {
-        font-size: 1.777rem;
-    }
-
-    .hierarchy-3 h4 {
-        font-size: 1.333rem;
-    }
-
-    .hierarchy-3 .title-line {
-        display: block;
-    }
-}
-
-
-/* ---------- Home / Index ---------- */
-.home .home-container {
-    padding-top: 4rem;
-    padding-bottom: 5rem;
-}
-
-.home .home-intro {
-    padding-bottom: 3.5rem;
-}
-
-.home .home-title {
-    font-family: "Hanken Grotesk", sans-serif;
-    font-size: 4rem;
-    font-weight: 700;
-    line-height: 0.95;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #191817;
-    margin-bottom: 1.5rem;
-}
-
-.home .home-title span {
-    display: block;
-}
-
-.home .home-dek {
-    font-size: 1.25rem;
-    line-height: 1.5;
-    max-width: 36rem;
-    margin-bottom: 0;
-}
-
-.home .home-entry {
-    border-top: 1px solid #D8D0C7;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-}
-
-.home .home-entry:last-child {
-    border-bottom: 1px solid #D8D0C7;
-}
-
-.home .entry-number {
-    display: block;
-    font-size: 2rem;
-    line-height: 1;
-    padding-top: 0.35rem;
-}
-
-.home .entry-name {
-    font-size: 3.25rem;
-    line-height: 1.05;
-    letter-spacing: normal;
-    color: #191817;
-    margin-bottom: 0;
-}
-
-.home .entry-face-b {
-    white-space: nowrap;
-}
-
-.home .scale-demo {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 0.75rem;
-    margin-top: 1.75rem;
-    line-height: 1;
-    color: rgba(25, 24, 23, 0.45);
-}
-
-.home .entry-scale {
-    font-size: 0.75rem;
-    font-weight: 600;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    margin-bottom: 0.75rem;
-}
-
-.home .entry-text {
-    font-size: 1rem;
-    line-height: 1.6;
-    margin-bottom: 1rem;
-}
-
-.home .entry-note {
-    font-size: 0.875rem;
-    color: rgba(25, 24, 23, 0.7);
-    margin-bottom: 1rem;
-}
-
-.home .entry-link {
-    display: inline-block;
-    margin-top: 0.5rem;
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: var(--ivory);
     text-decoration: underline;
-    text-underline-offset: 0.35em;
+    text-underline-offset: 6px;
 }
 
-.home .entry-link:hover,
-.home .entry-link:focus {
-    color: #191817;
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.6);
 }
 
-/* Hierarchy 1 preview: Bodoni Moda & Hanken Grotesk · Major Third */
-.home .entry-1 .entry-number,
-.home .entry-1 .entry-scale,
-.home .entry-1 .entry-link {
-    color: #681D2B;
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
 }
 
-.home .entry-1 .entry-number,
-.home .entry-1 .entry-face-a,
-.home .entry-1 .entry-amp,
-.home .entry-1 .scale-demo {
-    font-family: "Bodoni Moda", serif;
-    font-weight: 500;
+/* Hero */
+
+header {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
 }
 
-.home .entry-1 .entry-face-b {
-    font-family: "Hanken Grotesk", sans-serif;
-    font-size: 0.6em;
+.hero-logo {
+    display: block;
+    max-width: 220px;
+    max-height: 240px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.eyebrow {
+    font-size: 0.75rem;
+    letter-spacing: 0.4em;
+    color: var(--dusty-blue);
     font-weight: 600;
 }
 
-.home .entry-1 .step-0 { font-size: 1rem; }
-.home .entry-1 .step-1 { font-size: 1.25rem; }
-.home .entry-1 .step-2 { font-size: 1.563rem; }
-.home .entry-1 .step-3 { font-size: 1.953rem; }
-.home .entry-1 .step-4 { font-size: 2.441rem; }
-
-/* Hierarchy 2 preview: Bricolage Grotesque · Major Second */
-.home .entry-2 .entry-number,
-.home .entry-2 .entry-scale,
-.home .entry-2 .entry-link {
-    color: #2945A8;
+h1 {
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 300;
+    letter-spacing: 0.16em;
+    line-height: 1.2;
 }
 
-.home .entry-2 .entry-number,
-.home .entry-2 .entry-face-a,
-.home .entry-2 .scale-demo {
-    font-family: "Bricolage Grotesque", sans-serif;
+.lead {
+    color: var(--dusty-blue);
+    max-width: 620px;
+    font-size: 1.15rem;
 }
 
-.home .entry-2 .entry-number {
-    font-weight: 700;
+/* Section headings */
+
+.section-title {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--light-blue);
 }
 
-.home .entry-2 .entry-face-a {
-    font-weight: 800;
+/* Logo previews */
+
+.logo-preview {
+    height: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    border: 1px solid #e5e5e5;
 }
 
-.home .entry-2 .scale-demo {
+.logo-preview img {
+    display: block;
+    max-width: 100%;
+    max-height: 175px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.light-preview {
+    background-color: #ffffff;
+}
+
+.ivory-preview {
+    background-color: var(--ivory);
+}
+
+.blue-preview {
+    background-color: var(--dusty-blue);
+}
+
+.favicon-preview {
+        width: 110px !important;
+        height: 110px !important;
+        max-height: none !important;
+        image-rendering: auto;
+}
+
+.variation-number {
+    margin-top: 18px;
+    margin-bottom: 8px;
+    color: var(--dusty-blue);
+    letter-spacing: 0.2em;
+    font-size: 0.85rem;
+}
+
+#variations h3 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
     font-weight: 600;
 }
 
-.home .entry-2 .step-0 { font-size: 1rem; }
-.home .entry-2 .step-1 { font-size: 1.125rem; }
-.home .entry-2 .step-2 { font-size: 1.266rem; }
-.home .entry-2 .step-3 { font-size: 1.424rem; }
-.home .entry-2 .step-4 { font-size: 1.602rem; }
-
-/* Hierarchy 3 preview: Instrument Serif & Afacad Flux · Perfect Fourth */
-.home .entry-3 .entry-number,
-.home .entry-3 .entry-scale,
-.home .entry-3 .entry-link {
-    color: #1F5C4A;
+#variations p:not(.variation-number) {
+    color: #667789;
+    font-size: 0.9rem;
 }
 
-.home .entry-3 .entry-number,
-.home .entry-3 .entry-face-a,
-.home .entry-3 .entry-amp,
-.home .entry-3 .scale-demo {
-    font-family: "Instrument Serif", serif;
-    font-weight: 400;
+/* Color palette */
+
+.color-swatch {
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    margin-bottom: 12px;
 }
 
-.home .entry-3 .entry-amp {
-    font-style: italic;
+.dusty-blue {
+    background-color: var(--dusty-blue);
 }
 
-.home .entry-3 .entry-face-b {
-    font-family: "Afacad Flux", sans-serif;
-    font-size: 0.8em;
-    font-weight: 600;
+.light-blue {
+    background-color: var(--light-blue);
 }
 
-.home .entry-3 .step-0 { font-size: 1rem; }
-.home .entry-3 .step-1 { font-size: 1.333rem; }
-.home .entry-3 .step-2 { font-size: 1.777rem; }
-.home .entry-3 .step-3 { font-size: 2.369rem; }
-.home .entry-3 .step-4 { font-size: 3.157rem; }
-
-@media (max-width: 767.98px) {
-
-    .home .home-container {
-        padding-top: 2rem;
-        padding-bottom: 2.5rem;
-    }
-
-    .home .home-intro {
-        padding-bottom: 2rem;
-    }
-
-    .home .home-title {
-        font-size: 2.25rem;
-        margin-bottom: 0.75rem;
-    }
-
-    .home .home-dek {
-        font-size: 1.125rem;
-    }
-
-    .home .home-entry {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-    }
-
-    .home .entry-number {
-        font-size: 1.5rem;
-        padding-top: 0;
-    }
-
-    .home .entry-name {
-        font-size: 2rem;
-    }
-
-    .home .scale-demo {
-        margin-top: 1rem;
-    }
-
-    .home .entry-scale {
-        margin-bottom: 0.5rem;
-    }
-
-    .home .entry-text {
-        margin-bottom: 0.75rem;
-    }
-
-    .home .entry-note {
-        margin-bottom: 0.75rem;
-    }
-
-    .home .entry-link {
-        margin-top: 0.25rem;
-    }
+.ivory {
+    background-color: var(--ivory);
 }
 
-@media (max-width: 991.98px) {
-
-    .home .home-title {
-        line-height: 1;
-    }
+.dark-navy {
+    background-color: var(--dark-navy);
 }
 
-@media (max-width: 767.98px) {
+#colors p {
+    font-size: 0.9rem;
+}
 
-    .home .home-title {
-        line-height: 1.05;
-    }
+/* Usage guidelines */
+
+#guidelines ol {
+    padding-left: 24px;
+    color: #566b7d;
+}
+
+#guidelines li {
+    padding: 8px 0;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--dusty-blue);
+    color: white;
+    font-size: 0.85rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--ivory);
+    text-decoration: underline;
+}
+
+/* Mobile */
+
+@media (max-width: 767px) {
+    header {
+    padding-top: 45px !important;
+    padding-bottom: 45px !important;
+}
+
+h1 {
+    letter-spacing: 0.1em;
+}
+
+.navbar .nav-link {
+    margin-left: 0;
+}
+
+.logo-preview {
+    height: 220px;
+}
 }
